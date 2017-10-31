@@ -1,5 +1,6 @@
 import java.util.Scanner;
-
+//This is an implementation of circular queue using arrays
+//Queue is a FIFO data structure
 class queue
 {
 	int size;
@@ -7,6 +8,7 @@ class queue
 	int rear;
 	int q[];
 	
+	//to intialize queue
 	queue(int N)
 	{
 		size=N;
@@ -14,6 +16,7 @@ class queue
 		q=new int[size];
 	}
 	
+	// to add element to queue
 	void enqueue(int x)
 	{
 		if((front==rear)&&(rear==-1))
@@ -28,6 +31,7 @@ class queue
 			
 	}
 	
+	//to remove element from queue
 	int dequeue() 
 	{
 		if(front==-1)
