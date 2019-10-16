@@ -1,7 +1,2 @@
 # HactoberFest
-YEEAAAAA!!!
-GITHUB!!!
-yayyyy...free ki tshirt milegi!!!
-
-
-its back.......by rajshree
+version 7.0
